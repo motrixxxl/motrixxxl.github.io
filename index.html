@@ -2,9 +2,33 @@
 <html lang="en">
     <head>
         <title>My webpage</title>
+        <style>
+          body {
+            font-family: Verdana;
+            text-align: center;
+          }
+          h1 {
+            color: red;
+            font-size: 28pt;
+          }
+          .container {
+            margin: 100px;
+            width: 100%;
+            height: auto;
+          }
+          .goo {
+            width: 70px;
+            margin: 0 0 -8px 0;
+          }
+        </style>
     </head>
     <body>
-
-        <h1>My new website!</h1>
+        <div class="continer">
+          <form action="http://google.com/search" method="GET">
+            <img class="goo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+            <input name="q" type="text">
+            <input type="submit">
+          </form>
+        </div>
     </body>
 </html>
