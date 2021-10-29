@@ -1,55 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My webpage</title>
-        <style>
-          body {
-            font-family: Verdana;
-            text-align: center;
-          }
-          h1 {
-            color: red;
-            font-size: 28pt;
-          }
-          .container {
-            margin: 15% 0 0 0;
-            width: 100%;
-            height: auto;
-          }
-          .goo {
-            width: 300px;
-            margin: 0 0 -8px 0;
-          }
-          .search-str {
-            border-radius: 25px;
-            border: 1px solid lightgrey;
-            height: 46px;
-            padding: 0 20px 0 20px;
-            width: 450px;
-          }
-          .google-logo {
-              margin: 30px;
-          }
-          .search-btn {
-            margin: 30px;
-            border: none;
-            height: 35px;
-            width: 130px;
-            border-radius: 3px;
-            background-color: rgb(245,245,245);
-          }
-          .search-btn:hover {
-            border: 1px solid lightgrey;
-          }
-        </style>
+        <title>Пошуууууууук</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body class="body">
         <div class="container">
-          <form action="http://google.com/search" method="GET">
-            <div class="google-logo"><img class="goo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></div>
-            <div class=""><input class="search-str" name="q" type="text"></div>
-            <div class=""><input class="search-btn" type="submit" value="Пошук Google"></div>
-          </form>
+            <div class="links">
+                <a class="search-link" href="image_search.html">Пошук зображень</a>
+                <a class="search-link" href="extended_search.html">Розширений пошук</a>
+            </div>
+            <div>
+                <form action="https://google.com/search" method="GET">
+                    <div class="google-logo"><img class="goo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="logo google"></div>
+                    <div><input class="search-str" name="q" type="text"></div>
+                    <div>
+                        <input class="search-btn" type="submit" value="Пошук Google">
+                        <input class="search-btn" name="btnI" type="submit" value="Мені пощастить!">
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>

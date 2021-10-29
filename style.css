@@ -1,0 +1,117 @@
+.body {
+    font-family: Verdana;
+    text-align: center;
+}
+.body-advanced {
+    font-family: Verdana;
+}
+h1 {
+    color: red;
+    font-size: 28pt;
+}
+.container {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: auto;
+}
+.goo {
+    width: 300px;
+    margin: 0 0 -8px 0;
+}
+.search-str {
+    border-radius: 23px;
+    border: 1px solid lightgrey;
+    height: 44px;
+    padding: 0 20px 0 20px;
+    width: 450px;
+}
+.search-str:hover {
+    box-shadow: 2px 2px 30px -20px;
+}
+.search-str:focus {
+    outline: none;
+}
+.google-logo {
+    margin: 30px;
+}
+.search-btn {
+    margin: 30px 0 0px 7px;
+    border: none;
+    height: 35px;
+    width: 130px;
+    border-radius: 3px;
+    background-color: rgb(245,245,245);
+}
+.search-btn:hover {
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+.search-link {
+    text-decoration: none;
+}
+.search-link:hover {
+    text-decoration: underline 1px solid darkblue;
+}
+.links {
+    text-align: right;
+    padding: 0 10px 0 0;
+}
+.title {
+    font-size: 20px;
+}
+
+.name-field {
+    display: inline-table;
+    width: 250px;
+}
+.search-form {
+    margin: 50px 0 0 30px;
+}
+.advanced-search-btn {
+    text-align: right;
+}
+.advanced-search-btn input{
+    color: white;
+    width: 160px;
+    height: 30px;
+    background-color: dodgerblue;
+    margin: 15px 0 0 0;
+    border-radius: 3px;
+    border: none;
+}
+.advanced-search-btn input:hover{
+    background-color: #1372DCFF;
+    cursor: pointer;
+}
+.table {
+    display: inline-table;
+}
+.goo-mini {
+    width: 80px;
+    margin: 0 0 -8px 0;
+}
+.advanced-str {
+    border: 1px solid lightgrey;
+    height: 28px;
+    padding: 0 20px 0 20px;
+    width: 450px;
+    margin: 15px 0 0 30px;
+}
+.google-logo-mini {
+    margin: 0 0 0 10px;
+}
+.line {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 0 25px 0;
+}
+.advanced-title {
+    color: red;
+    font-weight: 100;
+    margin: 50px 0 0 30px;
+}
+
+.title-pic {
+    position: absolute;
+    margin: 83px 0 0 -63px;
+    color: blue;
+}
