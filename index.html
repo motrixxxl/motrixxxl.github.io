@@ -30,6 +30,17 @@
           .google-logo {
               margin: 30px;
           }
+          .search-btn {
+            margin: 30px;
+            border: none;
+            height: 35px;
+            width: 130px;
+            border-radius: 3px;
+            background-color: rgb(245,245,245);
+          }
+          .search-btn: hover {
+            border: 1px solid lightgrey;
+          }
         </style>
     </head>
     <body>
@@ -37,7 +48,7 @@
           <form action="http://google.com/search" method="GET">
             <div class="google-logo"><img class="goo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></div>
             <div class=""><input class="search-str" name="q" type="text"></div>
-            <div class=""><input type="submit" value="Пошук Google"></div>
+            <div class="search-btn"><input type="submit" value="Пошук Google"></div>
           </form>
         </div>
     </body>
